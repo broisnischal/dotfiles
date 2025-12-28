@@ -1,0 +1,1 @@
+# global config and setup for npm
