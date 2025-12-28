@@ -1,0 +1,11 @@
+sed
+awk
+fzf
+fg
+bg
+xargs
+find
+less
+man
+help
+ss
