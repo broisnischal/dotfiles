@@ -24,3 +24,6 @@ ttyd
 ncdu
 tmux
 doppler
+exa
+eza
+ss
