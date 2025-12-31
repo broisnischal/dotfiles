@@ -1,1 +1,16 @@
-{}
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "Prisma.prisma",
+    "ms-vscode.vscode-typescript-next",
+    "bradlc.vscode-tailwindcss",
+    "usernamehw.errorlens",
+    "formulahendry.auto-rename-tag",
+    "ms-vscode.vscode-json",
+    "redhat.vscode-yaml",
+    "eamodio.gitlens",
+    "ms-vscode.vscode-typescript-next"
+  ],
+  "unwantedRecommendations": []
+}

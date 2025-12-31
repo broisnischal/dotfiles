@@ -1,0 +1,149 @@
+{
+  "workbench.colorTheme": "Hackerman",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.largeFileOptimizations": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.fontFamily": "Monaspace Argon Var",
+  "redhat.telemetry.enabled": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.suggest.enabled": true,
+  "terminal.integrated.accessibleViewPreserveCursorPosition": true,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "workbench.productIconTheme": "icons-carbon",
+  "typescript.native-preview.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifierEnding": "auto",
+  "typescript.suggest.autoImports": true,
+  "typescript.suggest.paths": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "typescript.tsserver.maxTsServerMemory": 8192,
+  "typescript.tsserver.watchOptions": {
+    "watchFile": "useFsEvents",
+    "watchDirectory": "useFsEvents",
+    "fallbackPolling": "dynamicPriorityPolling",
+    "synchronousWatchDirectory": true,
+    "excludeDirectories": ["**/node_modules/**", "**/dist", "**/.git"]
+  },
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+
+  // JavaScript Configuration
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifierEnding": "auto",
+  "javascript.suggest.autoImports": true,
+  "javascript.suggest.paths": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.includePackageJsonAutoImports": "auto",
+
+  // File Watcher Configuration
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.next/**": true,
+    "**/coverage/**": true,
+    "**/.nyc_output/**": true,
+    "**/tmp/**": true,
+    "**/temp/**": true,
+    "**/uploads/**": true,
+    "**/backups/**": true,
+    "**/tmp_backups/**": true,
+    "**/prisma/migrations/**": true
+  },
+
+  // Search Configuration
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.git": true,
+    "**/coverage": true,
+    "**/tmp": true,
+    "**/temp": true,
+    "**/uploads": true,
+    "**/backups": true,
+    "**/tmp_backups": true,
+    "**/prisma/migrations": true,
+    "**/collection_backup/**": true
+  },
+
+  // File Associations
+  "files.associations": {
+    "*.prisma": "prisma"
+  },
+
+  // Prisma Configuration
+  "prisma.showPrismaDataPlatformNotification": false,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+
+  // TypeScript/JavaScript Formatting
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+
+  // Editor Configuration
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  // Performance & Caching
+  "typescript.disableAutomaticTypeAcquisition": false,
+  "typescript.preferences.useLabelDetailsInCompletionEntries": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeJSDocs": true,
+
+  // Makefile
+  "makefile.configureOnOpen": true,
+
+  // Exclude patterns for better performance
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  }
+}
