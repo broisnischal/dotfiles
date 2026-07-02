@@ -1,0 +1,150 @@
+@import "../omarchy/current/theme/waybar.css";
+
+* {
+  border: none;
+  border-radius: 999px;
+  min-height: 0;
+  font-family: "CaskaydiaMono Nerd Font";
+  font-size: 11px;
+  transition: all 140ms ease;
+}
+
+window#waybar {
+  background: transparent;
+  color: @foreground;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.modules-left {
+  margin-left: 8px;
+}
+
+.modules-right {
+  margin-right: 8px;
+}
+
+#clock,
+#custom-update,
+#custom-voxtype,
+#custom-screenrecording-indicator,
+#custom-idle-indicator,
+#custom-notification-silencing-indicator,
+#custom-expand-icon,
+#tray,
+#bluetooth,
+#network,
+#pulseaudio,
+#cpu,
+#battery {
+  background: alpha(@background, 0.72);
+  box-shadow: inset 0 0 0 1px alpha(@foreground, 0.08);
+  padding: 0 8px;
+  min-height: 20px;
+  margin: 0 2px;
+}
+
+#workspaces {
+  background: alpha(@background, 0.84);
+  box-shadow: inset 0 0 0 1px alpha(@foreground, 0.14);
+  padding: 0 8px;
+  min-height: 20px;
+}
+
+#workspaces button {
+  all: initial;
+  color: alpha(@foreground, 0.35);
+  padding: 0 4px;
+  margin: 2px 1px;
+  min-width: 9px;
+  font-size: 9px;
+}
+
+#workspaces button.empty {
+  color: alpha(@foreground, 0.2);
+}
+
+#workspaces button:hover {
+  color: alpha(@foreground, 0.6);
+  background: transparent;
+}
+
+#workspaces button.active {
+  color: @foreground;
+  background: transparent;
+}
+
+tooltip {
+  background: alpha(@background, 0.95);
+  border-radius: 8px;
+  border: 1px solid alpha(@foreground, 0.16);
+  padding: 4px 6px;
+}
+
+#custom-update {
+  color: #e7b97a;
+  font-size: 10px;
+}
+
+#clock {
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-screenrecording-indicator,
+#custom-idle-indicator,
+#custom-notification-silencing-indicator {
+  min-width: 12px;
+  font-size: 10px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #ff8e8e;
+  background: alpha(#9a2f2f, 0.25);
+  box-shadow: inset 0 0 0 1px alpha(#ff8e8e, 0.35);
+}
+
+#custom-voxtype {
+  min-width: 12px;
+}
+
+#custom-voxtype.recording {
+  color: #ff8e8e;
+  background: alpha(#9a2f2f, 0.25);
+  box-shadow: inset 0 0 0 1px alpha(#ff8e8e, 0.35);
+}
+
+#custom-idle-indicator.active,
+#custom-notification-silencing-indicator.active {
+  color: #f8a6a6;
+  background: alpha(#6c2f2f, 0.24);
+  box-shadow: inset 0 0 0 1px alpha(#f8a6a6, 0.28);
+}
+
+#battery.warning {
+  color: #f6c177;
+}
+
+#battery.critical {
+  color: #ff7676;
+}
+
+#custom-weather {
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+}
+
+#custom-weather.unavailable {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}

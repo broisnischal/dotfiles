@@ -1,0 +1,86 @@
+* {
+  all: unset;
+  font-family: monospace;
+  font-size: 13px;
+  color: #f5f5f5;
+}
+
+scrollbar {
+  opacity: 0;
+}
+
+.normal-icons,
+.large-icons,
+.item-image,
+.item-image *,
+.item-icon,
+.icon,
+image {
+  -gtk-icon-size: 0px !important;
+  min-width: 0px !important;
+  min-height: 0px !important;
+  width: 0px !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  font-size: 0px !important;
+  opacity: 0 !important;
+}
+
+.box-wrapper {
+  background: alpha(#000000, 0.96);
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 6px;
+  min-width: 400px;
+  max-width: 400px;
+}
+
+.search-container {
+  background: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+
+.input {
+  margin: 0px;
+  padding: 0px;
+}
+
+.input placeholder {
+  color: #9a9a9a;
+  opacity: 0.55;
+}
+
+.content-container,
+.scroll,
+.list,
+.placeholder,
+.preview,
+.keybind-hints,
+child,
+child > * {
+  margin: 0px;
+  padding: 0px;
+  min-height: 18px;
+}
+
+.item-box,
+.item-text-box {
+  margin: 0px;
+  padding: 0px;
+}
+
+.item-text {
+  line-height: 1.0;
+}
+
+child:selected {
+  background: alpha(#ffffff, 0.1);
+  border-radius: 6px;
+}
+
+child:selected .item-box * {
+  color: #ffffff;
+}
+

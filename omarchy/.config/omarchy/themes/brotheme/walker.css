@@ -1,0 +1,91 @@
+@define-color selected-text #ffffff;
+@define-color text #f2f2f7;
+@define-color base #000000;
+@define-color border #262626;
+@define-color foreground #f2f2f7;
+@define-color background #000000;
+
+/* Apple-like picker: dense rows, no padding, no icons. */
+* {
+  font-size: 14px !important;
+}
+
+.box-wrapper {
+  background: alpha(@base, 0.96) !important;
+  padding: 0px !important;
+  border: 1px solid @border !important;
+  border-radius: 10px !important;
+}
+
+.search-container {
+  background: transparent !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.input {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.input placeholder {
+  color: #8e8e93 !important;
+  opacity: 0.6 !important;
+}
+
+.item-box {
+  padding-left: 0px !important;
+  margin: 0px !important;
+}
+
+.item-text-box {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.item-image {
+  margin: 0px !important;
+  min-width: 0px !important;
+  min-height: 0px !important;
+  opacity: 0 !important;
+  -gtk-icon-transform: scale(0) !important;
+}
+
+child:selected {
+  background: alpha(#ffffff, 0.12) !important;
+  border-radius: 7px !important;
+}
+
+child:selected .item-box * {
+  color: @selected-text !important;
+}
+
+/* Hard overrides for base theme spacing/icon classes. */
+.normal-icons,
+.large-icons,
+.item-image,
+.item-image * {
+  -gtk-icon-size: 0px !important;
+  min-width: 0px !important;
+  min-height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  opacity: 0 !important;
+}
+
+child,
+child > * {
+  margin: 0px !important;
+  padding: 0px !important;
+  min-height: 0px !important;
+}
+
+.content-container,
+.scroll,
+.list,
+.placeholder,
+.preview,
+.keybind-hints {
+  margin: 0px !important;
+  padding: 0px !important;
+}
