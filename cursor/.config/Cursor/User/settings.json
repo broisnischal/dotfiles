@@ -1,0 +1,19 @@
+{
+  "workbench.layoutControl.enabled": false,
+  "workbench.agentsWindowButton.enabled": false,
+  "window.autoDetectColorScheme": false,
+  "svelte.enable-ts-plugin": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "cursor.cpp.disabledLanguages": ["plaintext"],
+  "explorer.confirmDelete": false,
+  "git.ignoreRebaseWarning": true,
+  "diffEditor.renderSideBySide": false,
+  "git.openRepositoryInParentFolders": "always",
+  "explorer.confirmPasteNative": false,
+  "workbench.iconTheme": "pierre-icons-complete",
+}

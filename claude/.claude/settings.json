@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "model": "sonnet",
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "gopls-lsp@claude-plugins-official": true
+  },
+  "theme": "dark",
+  "skipAutoPermissionPrompt": true,
+  "mcpServers": {
+    "azure": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "azure-board-mcp@latest"
+      ]
+    }
+  }
+}
